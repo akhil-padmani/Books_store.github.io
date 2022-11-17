@@ -1,0 +1,106 @@
+ /* *::selection{
+   background-color: rgb(0, 139, 0);
+   color:white;
+}
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+}
+.header .header-1{
+   float: right;
+   margin: 25px;
+   font-size: 20px;
+}
+.header{
+   position: sticky;
+   top:0; left:0; right:0;
+   z-index: 1000;
+   /* background-color: rgb(255, 239, 145); */
+   /* border: 2px solid rgb(0, 0, 0);
+   border-radius: 2px;
+   margin: 0px;
+}
+.header .header-2{
+   background: linear-gradient(rgba(243, 239, 7, 0.986),rgba(250, 172, 3, 0.959)),url() no-repeat;
+
+   padding: 7px;
+}
+.header .flex{
+   display: flex;
+   align-items: center;
+   padding:29px;
+   justify-content: space-between;
+   position: relative;
+   max-width: 1200px;
+   margin:0 auto;
+}
+.header .flex .logo{
+   font-size: 25px;
+   color: rgb(0, 0, 0);
+   font-weight: bolder;
+}
+.header .flex .navbar a{
+   margin:19px;
+   font-size: 20px;
+   color: #333;
+   text-transform: capitalize;
+   text-decoration: none;
+}
+
+.header .flex .navbar a:hover{
+   color:rgb(0, 175, 9);
+   text-decoration: none;
+}
+.logout{
+   text-transform: capitalize;
+   background-color: orange;
+   padding: 10px;
+   border-radius: 8px;
+   font-size: 12px;
+}
+.heading3{
+   text-transform: capitalize;
+    text-align: center;
+    font-size: 30px;
+    padding: 12px;
+    color: rgb(245, 114, 114);
+    margin: 9px; 
+   }
+   .heading3 span{
+    color: rgb(247, 143, 8);
+    font-size: 45px;
+   }
+
+
+#menu-btn{
+   display: none;
+}
+.btn,
+.option-btn,
+.delete-btn{
+   display: inline-block;
+   margin-top: 1rem;
+   padding:1rem 3rem;
+   cursor: pointer;
+   color:white;
+   font-size: 1.8rem;
+   border-radius: .5rem;
+   text-transform: capitalize;
+}
+
+.btn:hover,
+ .option-btn:hover,
+.delete-btn:hover{
+   background-color: black;
+}
+.option-btn{
+   background-color: green;
+}
+
+.delete-btn{
+   background-color: blue;
+}
+.heading{
+   text-align: center;
+   background-color: aqua;
+}  */ 

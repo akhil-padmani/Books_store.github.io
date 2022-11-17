@@ -1,0 +1,104 @@
+::-webkit-scrollbar{
+   display: none;
+}
+
+::selection{
+    background-color: green;
+    color: white;
+}
+.heading3{
+   text-transform: capitalize;
+    text-align: center;
+    font-size: 30px;
+    padding: 12px;
+    color: rgb(245, 114, 114);
+    margin: 9px; 
+   }
+   .heading3 span{
+    color: rgb(247, 143, 8);
+    font-size: 45px;
+   }
+.products .box-container{
+    max-width: 1400px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, 350px);
+    align-items: flex-start;
+    gap:5.5rem;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(images/Login3.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-color: rgb(199, 229, 255); */
+    padding: 70px;
+    border-radius: 20px;
+ }
+ 
+ .products .box-container .box{
+    border-radius: 15px;
+    /* background-color: rgb(255, 218, 170); */
+    background: linear-gradient(rgba(14, 12, 12, 0.7),rgba(236, 158, 148, 0.7)),url(images/about-author.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding:20px;
+    text-align: center;
+    /* border:2px solid grey; */
+    position: relative;
+ }
+ 
+ .products .box-container .box .image{
+    height: 20rem;
+ }
+ 
+ .products .box-container .box .name{
+    padding:1rem 0;
+    font-size: 2rem;
+    color:rgb(119, 233, 97);
+    text-transform: capitalize;
+ }
+ .products .box-container .box .name span{
+    padding:0.8rem 0;
+    font-size: 2rem;
+    color:rgb(253, 248, 248);
+ }
+ 
+ .products .box-container .box .qty{
+    width: 18%;
+    padding:8px;
+    border-radius: 15px;
+    width: 210px;
+   
+    margin:1rem 0;
+    font-size: 2rem;
+    text-align: center;
+ }
+ 
+  .products .box-container .box .price{
+    margin-top: 12px;
+     left:80px;
+    border-radius: 15px;
+    padding:7px;
+    font-size: 23px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(247, 35, 7);
+     margin-left: 15%;
+     margin-right: 15%;
+     
+ }
+ .products .box-container .box  .btn{
+    background-color:green;
+    color: white;
+    width: 215px;
+    padding: 12px;
+    margin-top: 6.5%;
+    border-radius: 15px;
+    text-transform: capitalize;
+    font-size: 16px;
+ }
+ .products .box-container .box .btn:hover{
+    background-color: rgb(7, 7, 10);
+    color: white;
+ }
+
+
+

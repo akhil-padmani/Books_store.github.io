@@ -1,0 +1,148 @@
+*{
+   font-family: 'Rubik', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   transition:all .2s linear;
+}
+section{
+    padding:3rem 2rem;
+ }
+
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+}
+
+body{
+   background-color: aliceblue;
+   background-image: url(images/adminbg.jpg);
+   background-size: cover;
+}
+
+.title{
+   text-align: center;
+   margin-bottom: 2rem;
+   text-transform: uppercase;
+   color:black;
+   font-size: 4rem;
+}
+
+.empty{
+   padding:1.5rem;
+   text-align: center;
+   border:1px solid rgb(0, 0, 0);
+   background-color: orange;
+   color:rgb(255, 255, 255);
+   font-size: 2rem;
+   border-radius: 20px;
+}
+.orders .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 550px);
+    justify-content: center;
+    gap:1.5rem;
+    max-width: 1200px;
+    margin:0 auto;
+    align-items: flex-start;
+ }
+ 
+ .orders .box-container .box{
+    background-color: rgb(255, 253, 240);
+    padding:20px;
+    border:1px solid black;
+    border-radius: 10px;
+ }
+ 
+ .orders .box-container .box p{
+    padding-bottom: 10px;
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+ }
+ 
+ .orders .box-container .box p span{
+    color:rgb(255, 178, 13);
+ }
+ 
+ .orders .box-container .box form{
+    text-align: center;
+ }
+ 
+ .orders .box-container .box form select{
+    border-radius: 5px;
+    margin:5px 0;
+    width: 100%;
+    background-color: aliceblue;
+    border: 2px solid black;
+    padding:12px 14px;
+    font-size: 18px;
+    color:black;
+ }
+ .box-container .box .option-btn{
+   padding: 14px;
+   font-size: 19px;
+   background-color: orange;
+   color: white;
+   border-radius: 10px;
+   margin-right:50px;
+ }
+ .box-container .box .delete-btn{
+   padding: 14px;
+   font-size: 19px;
+   background-color: rgb(25, 0, 255);
+   color: white;
+   border-radius: 10px;
+ }
+
+
+
+
+/* media queries  */
+
+@media (max-width:991px){
+
+   html{
+      font-size: 55%;
+   }
+
+}
+
+@media (max-width:768px){
+
+   #menu-btn{
+      display: inline-block;
+   }
+
+   .header .flex .navbar{
+      position: absolute;
+      top:99%; left:0; right:0;
+      background-color: var(--white);
+      border-top: var(--border);
+      border-bottom: var(--border);
+      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+   }
+
+   .header .flex .navbar.active{
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+   }
+
+   .header .flex .navbar a{
+      margin:2rem;
+      display: block;
+   }
+
+}
+
+@media (max-width:450px){
+
+   html{
+      font-size: 50%;
+   }
+
+   .title{
+      font-size: 3rem;
+   }
+
+}
+

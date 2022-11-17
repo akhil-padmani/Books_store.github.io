@@ -1,0 +1,87 @@
+*{
+   font-family: 'Rubik', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   transition:all .2s linear;
+}
+body{
+   background-image: url(images/adminbg.jpg);
+   background-size: cover;
+}
+
+*::selection{
+   background-color: green;
+   color:white;
+}
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+}
+section{
+   padding:3rem 2rem;
+}
+
+.title{
+   text-align: center;
+   margin-top: 7px;
+   margin-bottom: 45px;
+   text-transform: uppercase;
+   color:rgba(77, 63, 63, 0.658);
+   font-size: 40px;
+}
+.dashboard .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   gap:15px;
+   max-height: auto;
+   max-width: 750px;
+   margin:0 auto;
+   align-items: flex-start;
+}
+
+.dashboard .box-container .box{
+   border-radius: 27px;
+   padding:20px;
+   background-color: rgb(245, 248, 206);
+   /* border:2px solid rgb(0, 0, 0); */
+   text-align: center;
+}
+
+.dashboard .box-container .box h3{
+   font-size: 50px;
+   color:rgb(0, 0, 0); 
+   
+}
+
+.dashboard .box-container .box p{
+   margin-top: 15px;
+   padding:15px;
+   background-color: rgb(253, 152, 0);
+   color:rgb(255, 255, 255);
+   font-size: 20px;
+   border-radius: 50px;
+   /* border:2px solid rgb(0, 0, 0); */
+}
+
+/* media queries  */
+
+@media (max-width:991px){
+
+   html{
+      font-size: 55%;
+   }
+
+}
+@media (max-width:450px){
+
+   html{
+      font-size: 50%;
+   }
+
+   .title{
+      font-size: 3rem;
+   }
+
+}

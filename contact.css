@@ -1,0 +1,68 @@
+ ::-webkit-scrollbar{
+    display: none;
+}
+.heading3{
+   text-transform: capitalize;
+    text-align: center;
+    font-size: 30px;
+    padding: 12px;
+    color: rgb(245, 114, 114);
+    margin: 9px; 
+   }
+   .heading3 span{
+    color: rgb(247, 143, 8);
+    font-size: 45px;
+   }
+.contact{
+   background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.3)),url(images/about-author.jpg) no-repeat;
+   background-size: cover;
+   background-position: center;
+   padding: 40px;
+   border-radius: 20px;
+}
+ .contact-us .iconsb {
+    margin: 20px;
+    float: right;
+    font-size: 30px;
+    margin-right: 560px;
+} 
+.contact form{
+    margin:0 auto;
+    background-color: rgb(255, 211, 182);
+    border-radius: 25px;
+    padding:2rem;
+    max-width: 50rem;
+    margin:0 auto;
+    text-align: center;
+ }
+ 
+ .contact form h3{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color:black;
+ }
+ 
+ .contact form .box{
+    margin:1rem 0;
+    width: 100%;
+    background-color: white;
+    padding:1.2rem 1.4rem;
+    font-size: 1.8rem;
+    color:var(--black);
+    border-radius: .5rem;
+ }
+ 
+ .contact form textarea{
+    height: 20rem;
+    resize: none;
+ }
+ .btn{
+  background-color: brown;
+  padding: 15px;
+  border-radius: 12px;
+  color: white;
+  font-size: 20px;
+
+ }
+ 

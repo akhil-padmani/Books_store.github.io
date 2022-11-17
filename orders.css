@@ -1,0 +1,38 @@
+::-webkit-scrollbar{
+    display: none;
+}
+.placed-orders .box-container .box{
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(images/bgm.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: orange;
+    border: 1px solid tan;
+    border-radius: 20px;
+    padding: 4px;
+    font-size: 21px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , 590px );
+    justify-content: center;
+    max-width:650px;
+    margin: 0 auto;
+    align-items: flex-start;
+    margin-bottom: 20px ;
+}
+.heading{
+    text-transform: capitalize;
+     text-align: center;
+     font-size: 30px;
+     padding: 12px;
+     color: rgb(245, 114, 114);
+     margin: 9px; 
+    }
+    .heading span{
+     color: rgb(247, 143, 8);
+     font-size: 45px;
+    }
+
+    body{
+        background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(images/about-author.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+    }

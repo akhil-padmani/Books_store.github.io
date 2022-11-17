@@ -1,0 +1,144 @@
+::-webkit-scrollbar{
+   display: none;
+}
+.heading3{
+  text-transform: capitalize;
+   text-align: center;
+   font-size: 30px;
+   padding: 12px;
+   color: rgb(245, 114, 114);
+   margin: 9px; 
+  }
+  .heading3 span{
+   color: rgb(247, 143, 8);
+   font-size: 45px;
+  }
+.reviews{
+    background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.6)),url(images/Login33.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 60px;
+ }
+ .title{
+   text-align: center;
+   font-size: 40px;
+   margin-bottom: 30px;
+   text-transform: capitalize;
+   color: orange;
+ }
+ 
+ .reviews .box-container{
+    max-width: 1290px;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    align-items: center;
+    gap:95px;
+    justify-content: center;
+ }
+ 
+ .reviews .box-container .box{
+    background-color: whitesmoke;
+    border:2px solid rgb(0, 0, 0);
+    border-radius: 40px;
+    text-align: center;
+    padding:2rem;
+ }
+ 
+ .reviews .box-container .box img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+ }
+ 
+ .reviews .box-container .box p{
+    padding:1rem 0;
+    line-height: 2;
+    font-size: 1.5rem;
+ }
+ 
+.reviews .box-container .box h3{
+    font-size: 20px;
+    margin-top: 10px;
+ }
+
+ .authors{
+   background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.6)),url(images/Login33.jpg) no-repeat;
+   background-position: center;
+   background-size: cover;
+   border-radius: 20px;
+   padding: 60px;
+}
+.title{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  color: orange;
+}
+
+.authors .box-container{
+   max-width: 1290px;
+   margin:0 auto;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+   align-items: center;
+   gap:95px;
+   justify-content: center;
+}
+
+.authors .box-container .box{
+   background-color: whitesmoke;
+   border:2px solid rgb(0, 0, 0);
+   border-radius: 40px;
+   text-align: center;
+   padding:2rem;
+}
+
+.authors .box-container .box img{
+   height: 14rem;
+   width: 14rem;
+   border-radius: 50%;
+}
+
+.authors .box-container .box p{
+   padding:1rem 0;
+   line-height: 2;
+   font-size: 1.5rem;
+}
+
+.authors .box-container .box h3{
+   font-size: 2rem;
+   margin-top: 1rem;
+}
+ 
+/* media queries  */
+
+/* @media (max-width:991px){
+
+   html{
+      font-size: 55%;
+   }
+
+}
+
+
+  
+
+@media (max-width:450px){
+
+   html{
+      font-size: 50%;
+   }
+
+   .heading h3{
+      font-size: 3.5rem;
+   }
+
+   .title{
+      font-size: 3rem;
+   }
+
+}
+  */
